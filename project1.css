@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+
+    /* /* background-color: #000; */
+
+    /* background-color: #000; */
+}
+
+
+.conatiner {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+
+.logo {
+    width: 300px;
+    height: 100px;
+    color: #fff;
+}
+
+
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    justify-content: space-between;
+    width: 60%;
+    list-style: none;  
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.background-project1 {
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/Crew_7_outside39abmound_DSC_9769_931c45bed4.jpg");
+
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+
+.crew-descibe {
+    color: #fff;
+    position: absolute;
+    bottom: 150px;
+    left: 150px;
+}
+
+.crew-descibe h5 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 10px;
+}
+
+
+.crew-descibe h1 {
+    font-size: 2.65rem;
+    text-transform: uppercase;
+}
+
+.crew-descibe button {
+    /* font-size: 2rem; */
+    width: 165px;
+    height: 59px;
+    background: none;
+    border: 2px solid white;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 16px;
+}
+
+
+
+.STARLINK-MISSION {
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/Star6_11_streak_desktop_6b6d13521a.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+
+.starlink-mission2 {
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/Star6_10_081623_Star6_10_DSC_4749_desktop_956cc16004.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+
+.starship-flight-test {
+
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/STARSHIP_Testflight_DESKTOP_2b3bea613a.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+svg{
+   color: #fff;
+   fill: currentColor;
+}
+
+
+

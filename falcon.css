@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    background-color: #000;
+}
+
+
+.conatiner {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.logo {
+    width: 300px;
+    height: 100px;
+    color: #fff;
+}
+
+
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    justify-content: space-between;
+    width: 60%;
+    list-style: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.background-project2 {
+    background-image: url("https://www.spacex.com/static/images/backgrounds/f9_feature.jpg");
+
+    width: 100%;
+    height: 139vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+}
+
+.falcon9 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+}
+
+.falcon9 h1 {
+    font-size: 5.78rem;
+    font-weight: 100%;
+    font-family: sans-serif;
+
+}
+
+.falcon9 p {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+
+.counter-launches {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.counter-container h1 {
+    font-size: 8.18rem;
+    font-weight: 500;
+}
+
+.counter-container p {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.counter-container {
+    /* height: 28vh; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 89px;
+  padding-top: 112px;
+
+}
+
+.falcon9-description {
+    color: #fff;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.falcon9-paragraph {
+    width: 398px;
+    padding-left: 200px;
+}
+
+.overview-detaials {
+    color: #fff;
+    height: 50vh;
+    padding: 56px;
+    width: 50%;
+
+}
+
+.overview-detaials p{
+    text-transform: uppercase;
+    font-size: 0.89rem;
+    font-weight: 100;
+}
+
+.overview-detaials h1{
+ font-size: 2.7rem;
+ text-transform: uppercase;
+ font-weight: 900;
+}
+
+.overview-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.overview-img{
+    width: 50%;
+    background-repeat: no-repeat;
+}
+
+.overview-img img{
+    height: 698px;
+
+}
+
+.overview-table{
+    width: 78%;
+    height: 100vh;
+}
+
+.table-row{
+display: flex;
+flex-direction: row;
+padding-top: 36px;
+display: flex;
+justify-content: space-between;
+border-bottom: 2px solid grey;
+padding-bottom: 14px;
+}
+
+
+svg{
+    color: #fff;
+    fill: currentColor;
+ }
+
+ iframe{
+    margin-top: 165px;
+    width: 100%;
+    height: 100vh;
+ }
+
+
+
+.merlin-container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+ .merlin-data{
+    background-color: #000;
+   height: 100vh;
+   
+ }
+
+ .merlin-describe{
+    color: #fff;
+    margin-left: 126px;
+    margin-top: 111px;
+    text-transform: uppercase;
+ }
+
+ .merlin-describe p{
+    font-weight: 678;
+    font-family: sans-serif;
+ }
+ 
+ .merlin-describe h1{
+    font-family: sans-serif;
+    font-weight: 789;
+    font-size: 2.34rem;
+ }
+
+ .merlin-vacuam{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    margin-top: 67px;
+    margin-left: 126px;
+    font-family: sans-serif;
+     font-size: 1.26rem;
+     font-weight: 546;
+ }
+
+ .merlin-paragraph{
+    margin-left:126px;
+    margin-top: 111px;
+    color: #fff;
+    width: 478px;
+ }
+
+ .merlin-img{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+ }
+
+ .merlin-img img{
+    width: 654px;
+    height: 345px;
+ }
+
+.rocket img{
+    height: 100vh;
+    width: 100%;
+}
+
+.information-container{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+
+
+.information p{
+    text-align: center;
+    color: grey;
+}
+
+
+.button-group button{
+  background-color: #000;
+  color: #fff;
+  padding: 20px ;
+  border: 2px solid white;
+  margin-top: 30px;
+  margin-left: 30px; 
+}
+
+.sales{
+    color: #fff;
+}
+
+.information{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footr-container{
+display: flex;
+flex-direction: row;
+color: #fff;
+justify-content: center;
+gap: 15px;
+font-size: 0.67rem;
+margin-bottom: 50px;
+}
+
+.footr-text{
+    font-size: 0.67rem;
+    color: grey
+}
+
+
+
+
+
+
+
+
+
+
+                                             
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
